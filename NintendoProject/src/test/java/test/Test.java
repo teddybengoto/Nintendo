@@ -5,6 +5,7 @@ import model.Adresse;
 import model.Boutique;
 import model.Console;
 import model.Jeu;
+import model.Portable;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class Test {
 
 		// TODO Auto-generated method stub
 
-		Console c = new Console("Console");
+		Portable p = new Portable ("Console",12,LocalDate.now());
 
 
 		Jeu j1 = new Jeu("Jeu1", c,"Fleuriste");
