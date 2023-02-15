@@ -19,7 +19,7 @@ public class Test {
 
 		// TODO Auto-generated method stub
 
-		Portable p = new Portable ("Console",12,LocalDate.now());
+		Portable c= new Portable ("Console",12,LocalDate.now());
 
 
 		Jeu j1 = new Jeu("Jeu1", c,"Fleuriste");
