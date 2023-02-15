@@ -1,9 +1,12 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Client {
 	
 	String nom;
 	String prenom;
+	private Achat achat[] = new ArrayList();
 	
 	public Client(String nom, String prenom) {
 		this.nom = nom;
@@ -25,6 +28,13 @@ public class Client {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
+	public Achat[] getAchat() {
+		return achat;
+	}
+	public void setAchat(Achat[] achat) {
+		this.achat = achat;
+	}
+	
 	
 	
 
