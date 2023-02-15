@@ -1,5 +1,7 @@
 package test;
 
+import model.Adresse;
+import model.Boutique;
 import model.Console;
 import model.Jeu;
 
@@ -17,8 +19,9 @@ public class Test {
 		Jeu j4 = new Jeu("Jeu4", c,"Menusier");
 		Jeu j5 = new Jeu("Jeu5", c,"Bar");
 
-
-
+		Adresse a = new Adresse("8", "rue machin","NYC");
+		Boutique micromania = new Boutique("Micromania",a);
+		
 	}
 
 }
