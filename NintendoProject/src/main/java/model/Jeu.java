@@ -6,12 +6,26 @@ public class Jeu {
 
 	private String titre;
 	private Console console;
+	private String boutique;
 	
 	
 	
-	public Jeu(String titre, Console console) {
+	public Jeu(String titre, Console console, String boutique) {
 		this.titre = titre;
 		this.console = console;
+		this.boutique=boutique;
+	}
+
+
+
+	public String getBoutique() {
+		return boutique;
+	}
+
+
+
+	public void setBoutique(String boutique) {
+		this.boutique = boutique;
 	}
 
 
@@ -42,8 +56,12 @@ public class Jeu {
 
 	@Override
 	public String toString() {
-		return "Jeu [titre=" + titre + ", console=" + console + "]";
+		return "Jeu [titre=" + titre + ", console=" + console + ", boutique=" + boutique + "]";
 	}
+
+
+
+	
 	
 	
 }
