@@ -1,10 +1,12 @@
 package model;
 
+import java.time.LocalDate;
+
 public abstract class Console {
 
-	private double prix;
-	private LocalDate dateSortie;
-	private String nom;
+	protected double prix;
+	protected LocalDate dateSortie;
+	protected String nom;
 
 	public Console(String nom, double prix, LocalDate dateSortie) {
 		this.nom = nom;
